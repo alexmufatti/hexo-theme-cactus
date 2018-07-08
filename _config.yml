@@ -31,6 +31,11 @@ social_links:
   linkedin: /
   mail: mailto:name@email.com
 
+# Customize the overview with displaying a tagcloud on the index page.
+# Options:
+#   - show_all_tags: whether to enable the tagcloud.
+tags_overview:
+  show_all_tags: true
 
 # Customize the overview with the most recent blog posts on the index page.
 # Options:

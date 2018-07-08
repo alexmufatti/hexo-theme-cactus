@@ -59,3 +59,12 @@
   </ul>
 </section>
 <% } %>
+
+<% if (theme.tags_overview.show_all_tags && site.tags.length) { %>
+<section id="tags">
+  <span class="h1"><%= __('index.all_tags') %></a></span>
+    <div class="widget tagcloud">
+      <%- tagcloud() %>
+    </div>
+</section>
+<% } %>
