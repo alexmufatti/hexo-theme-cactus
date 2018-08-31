@@ -74,6 +74,7 @@ logo:
 #   - url: where the icon can be found
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon: 
+  custom: false
   desktop:
     url: /images/favicon.ico
     gravatar: false
