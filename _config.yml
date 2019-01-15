@@ -21,7 +21,7 @@ nav:
 
 
 # Links to your social media accounts.
-# The keys should correspond to Fontawesome icon names 
+# The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
@@ -41,10 +41,23 @@ tags_overview:
 # Options:
 #   - show_all_posts: whether to show all available posts.
 #   - post_count: whether to show only the x most recent posts.
+#   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
   post_count: 5
+  sort_updated: false
 
+# Customize the archive view.
+# Options:
+#   - sort_updated: sort posts by last modification date instead of creation date.
+archive:
+  sort_updated: false
+
+# Customize the article view.
+# Options:
+#   - show_updated: show the last modification date.
+post:
+  show_updated: false
 
 ##############################################################################
 # Look and Feel
@@ -106,7 +119,7 @@ page_width: 48
 rss: false
 
 # Turn your web pages into graph objects (see http://ogp.me).
-open_graph: 
+open_graph:
   fb_app_id:
   fb_admins:
   twitter_id:
@@ -118,12 +131,12 @@ open_graph:
 ##############################################################################
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
-disqus: 
+disqus:
   enabled: false
   shortname: cactus-1
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
-google_analytics: 
+google_analytics:
   enabled: false
   id: UA-86660611-1
 
