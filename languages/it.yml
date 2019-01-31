@@ -2,8 +2,11 @@ nav:
   home: Home
   about: About
   articles: Articoli
+  tag: Tags
+  category: Categorie
   projects: Progetti
   search: Cerca
+  contacts: Contatti
 
 footer:
   copyright: Copyright
