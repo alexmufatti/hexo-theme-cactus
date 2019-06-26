@@ -1,3 +1,5 @@
+@import "_variables"
+@import "_colors/" + $colors
 $base-style
   h1, .h1
     display: block
@@ -104,11 +106,10 @@ $base-style
 
   th
     padding: 8px
-    border-bottom: 1px dashed $color-border
     color: $color-accent-2
     font-weight: bold
     font-size: $font-size - 1px
 
   td
     padding: 9px 8px 0
-    border-bottom: none
+    border: 1px solid $color-border 
