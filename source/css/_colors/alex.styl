@@ -1,14 +1,22 @@
 // by @sergodeeva (https://github.com/sergodeeva)
-$color-background = #e2e0de
+$color-background = #222831
 $color-footer-mobile-1 = darken($color-background, 2%)
 $color-footer-mobile-2 = darken($color-background, 10%)
-$color-border = #666
-$color-meta = #666
+$color-border = #dddddd
+$color-meta = #dddddd
 $color-meta-code = lighten($color-meta, 10%)
 $color-link = rgba(34, 132, 150, 1)
-$color-text = #363533
-$color-accent-3 = #666666
-$color-accent-2 = #111111
-$color-accent-1 = #228496
+$color-text = #eeeeee
+$color-accent-3 = #dddddd
+$color-accent-2 = #00adb5
+$color-accent-1 = #00adb5
 $color-quote = #228496
 $highlight = hexo-config("highlight") || "darkula"
+
+.content a.posttitle {
+  color: $color-accent-1;
+}
+
+.content .h1 {
+  color: $color-text;
+}
